@@ -1,0 +1,120 @@
+/* =========================================
+    Default Theme
+    ----------------------------------------
+    Fonts: Raleway & Open Sans
+    ----------------------------------------
+    Colors:
+        Moon Yellow:         #f4c613
+        Grey:                #212226
+        White Smoke:         #f4f4f4
+        White:               #fff
+        Black:               #000   
+============================================ */
+
+/* =========================================
+                Html, Body
+============================================ */
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #212226;
+  background: rgb(255, 255, 255);
+}
+
+/* =========================================
+                search button
+============================================ */
+* {
+  box-sizing: border-box;
+}
+
+/* =========================================
+                search button
+============================================ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+section {
+  overflow: hidden;
+}
+
+/* =========================================
+                Lesson Plan
+============================================ */
+
+.heading {
+  text-align: center;
+  margin: 60px 0 60px 0;
+}
+.contain-main {
+  margin: 20px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  margin: 20px;
+}
+.grid a {
+  cursor: pointer;
+  text-decoration: none;
+}
+.card {
+  display: flex;
+  border: 2px solid #f4c613;
+  border-radius: 10px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.card:hover {
+  color: #ffffff;
+  background-color: #ffec9e;
+}
+.text {
+  text-align: center;
+  color: #f4c613;
+  font-size: 15px;
+  font-weight: bold;
+}
+.text:hover {
+  color: #ffffff;
+}
+@media (max-width: 767px) {
+  /* Lesson Plan */
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .card {
+    border-radius: 10px;
+    padding: 5px;
+  }
+
+  .text {
+    font-size: 10px;
+    font-weight: bold;
+  }
+}
