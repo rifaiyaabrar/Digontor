@@ -4,7 +4,7 @@
     Fonts: Raleway & Open Sans
     ----------------------------------------
     Colors:
-        Moon Yellow:         #f4c613
+        Moon Yellow:         #000
         Grey:                #212226
         White Smoke:         #f4f4f4
         White:               #fff
@@ -81,7 +81,7 @@ section {
 }
 .card {
   display: flex;
-  border: 2px solid #f4c613;
+  border: 2px solid #000;
   border-radius: 10px;
   padding: 10px;
   justify-content: center;
@@ -89,11 +89,11 @@ section {
 }
 .card:hover {
   color: #ffffff;
-  background-color: #ffec9e;
+  background-color: #000;
 }
 .text {
   text-align: center;
-  color: #f4c613;
+  color: #000;
   font-size: 15px;
   font-weight: bold;
 }
