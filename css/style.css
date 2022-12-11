@@ -4,7 +4,7 @@
     Fonts: Raleway & Open Sans
     ----------------------------------------
     Colors:
-        Moon Yellow:         #f4c613
+        Moon Yellow:         #000
         Grey:                #212226
         White Smoke:         #f4f4f4
         White:               #fff
@@ -46,7 +46,7 @@ form.example button {
   float: left;
   width: 20%;
   padding: 5px;
-  background: #f4c613;
+  background: #000;
   color: white;
   font-size: 10px;
   border: 1px solid grey;
@@ -141,17 +141,17 @@ section {
 
 .cont{
   position: absolute;
-  top: 40%;
+  top: 35%;
   margin-left: auto;
-  left: 42%;
+  left: 38%;
 }
 
 
 
 .cont h3 {
-  color:white;
+  color:#000;
   font-size: 18px;
-  /* font-weight: 100; */
+  font-weight: 300;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 0;
@@ -160,8 +160,8 @@ section {
 }
 
 .cont h1{
-  color: #f4c613;
-  font-size: 65px;
+  color: #000;
+  font-size: 80px;
   font-weight: 500;
   text-align: center;
 }
@@ -192,18 +192,20 @@ section {
   color: #fff;
   border: 1px solid #fff;
 }
-
+.btn:hover{
+  background-color: #f;
+}
 .btn-home:hover,
 .btn-home:focus {
   color: #fff;
-  background-color: #f4c613;
-  border: 1px solid #f4c613;
+  background-color: #000;
+  border: 1px solid #000;
 }
 
 .btn-yellow {
   color: #fff;
-  border: 1px solid #f4c613;
-  background-color: #f4c613;
+  border: 1px solid #000;
+  background-color: #000;
 }
 
 .btn-yellow:hover,
@@ -255,7 +257,7 @@ section {
 
 #arrow-down:hover,
 #arrow-down:focus {
-  color: #f4c613;
+  color: #000;
 }
 
 /* =========================================
@@ -279,7 +281,7 @@ section {
 ============================================ */
 
 .vertical-heading h5 {
-  color: #f4c613;
+  color: #000;
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
@@ -309,7 +311,7 @@ section {
 
 .horizontal-heading h5 {
   font-size: 16px;
-  color: #f4c613;
+  color: #000;
   text-transform: uppercase;
   display: inline-block;
   margin-bottom: 10px;
@@ -363,7 +365,7 @@ section {
 .about-item hr {
   width: 45px;
   height: 3px;
-  background-color: #f4c613;
+  background-color: #000;
   margin: 0 auto;
   border: none;
 }
@@ -375,7 +377,7 @@ section {
 /* Hover state */
 
 .about-item:hover {
-  background-color: #f4c613;
+  background-color: #000;
 }
 
 .about-item:hover i,
@@ -485,7 +487,7 @@ ul.social-list li:nth-child(3) a:hover {
 }
 
 .service:hover .icon {
-  color: #f4c613;
+  color: #000;
   -webkit-transform: translateX(-20px);
   transform: translateX(-20px);
 }
@@ -493,7 +495,7 @@ ul.social-list li:nth-child(3) a:hover {
 .service h5 {
   font-size: 12px;
   text-transform: uppercase;
-  color: #f4c613;
+  color: #000;
   margin: 0 0 6px 0;
 }
 
@@ -539,9 +541,9 @@ ul.social-list li:nth-child(3) a:hover {
 /* Tab active state */
 
 #services-tabs ul li.r-tabs-state-active a {
-  color: #f4c613;
+  color: #000;
   font-weight: 700;
-  border-bottom: 3px solid #f4c613;
+  border-bottom: 3px solid #000;
   padding-bottom: 5px;
   -webkit-transition: border-color 300ms linear;
   transition: border-color 300ms linear;
@@ -581,7 +583,7 @@ ul.social-list li:nth-child(3) a:hover {
 
 .btn {
   color: #fff;
-  background-color: #f4c613;
+  background-color: #000;
   border: 2px solid white;
   padding: 7px;
   font-size: 10px;
@@ -613,7 +615,7 @@ ul.social-list li:nth-child(3) a:hover {
 }
 .card {
   display: flex;
-  border: 2px solid #f4c613;
+  border: 2px solid #000;
   border-radius: 10px;
   padding: 20px;
   justify-content: center;
@@ -621,11 +623,15 @@ ul.social-list li:nth-child(3) a:hover {
 }
 .card:hover {
   color: #ffffff;
-  background-color: #ffec9e;
+  background-color: #000;
+  
+}
+.card:hover h3{
+  color: #fff
 }
 .text {
   text-align: center;
-  color: #f4c613;
+  color: #000;
   font-size: 17px;
   font-weight: bold;
 }
@@ -726,7 +732,7 @@ footer p {
 }
 
 footer p span {
-  color: #f4c613;
+  color: #fff;
 }
 
 /* =========================================
@@ -768,7 +774,7 @@ ul.navbar-nav > li > a {
 ul.navbar-nav > li > a:hover,
 ul.navbar-nav > li > a:focus {
   background: none;
-  color: #f4c613;
+  color: #000;
 }
 
 /* White Navigation */
@@ -787,13 +793,13 @@ ul.navbar-nav > li > a:focus {
 
 .white-nav-top ul.navbar-nav > li > a:hover,
 .white-nav-top ul.navbar-nav > li > a:focus {
-  color: #f4c613;
+  color: #000;
 }
 
 /* Scroll spy active state */
 
 .white-nav-top ul.navbar-nav > li.active > a {
-  color: #f4c613;
+  color: #000;
   font-weight: 500;
 }
 
